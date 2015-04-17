@@ -1,4 +1,3 @@
-# sample-amqp-java-publisher
 Sample java client acting as a publisher leveraging RabbitMQ server. This sample project is built using TDD (Test Driven Development) approach (though the test cases are fake as of now).
 
 Clone the project
