@@ -16,9 +16,9 @@ How to run
 Run as a standalone java program. The command is:<br/>
 
 	cd {project_dir}
-	java -jar target\amqp-publisher-0.0.1-SNAPSHOT-jar-with-dependencies.jar (for linux)
+	java -jar target/amqp-publisher-0.0.1-SNAPSHOT-jar-with-dependencies.jar (for linux)
                                    OR
-	java -jar target/amqp-publisher-0.0.1-SNAPSHOT-jar-with-dependencies.jar (for windows)
+	java -jar target\amqp-publisher-0.0.1-SNAPSHOT-jar-with-dependencies.jar (for windows)
 
 
  
