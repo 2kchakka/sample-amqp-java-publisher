@@ -1,5 +1,7 @@
 package org._2kchakka.amqp;
 
+import org._2kchakka.amqp.util.PublisherUtil;
+
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Channel;
@@ -17,7 +19,7 @@ public class Publisher {
       
 	  // Creating connection to RabbitMQ server
 	  ConnectionFactory factory = new ConnectionFactory();
-	  factory.setHost("localhost");
+	  factory.setHost(PublisherUtil.readFromResource("rabbit.server.host"));
 	  Connection connection = factory.newConnection();
 	  
 	  // Creating channel - most of the API are here
